@@ -1,4 +1,6 @@
 ﻿using System.Collections;
+using System.Diagnostics.Metrics;
+
 namespace Program
 {
     public class Program
@@ -26,26 +28,34 @@ namespace Program
         bool s1Enabled = true;
         public void Push(int x)
         {
-            if (s1Enabled) stack1.Push(x);
-           else stack2.Push(x);
+
+            for (int i = 0; i < stack2.Count; i++)
+            {
+               stack1.Push(stack2.Pop());
+            }
+            stack1.Push(x);
+           
 
         }
 
         public int Pop()
         {
-            int counter = s1Enabled ? stack1.Count : stack2.Count;
-            for (int i = 0; i < counter; i++)
+            
+            for (int i = 0; i < stack1.Count; i++)
             {
-                if (s1Enabled) stack2.Push(stack2.Pop());
-                else stack1.Push(stack2.Pop());
-            } s1Enabled = false;
-            return s1Enabled? (int)stack1.Pop() : (int)stack2.Pop();
+                 stack2.Push(stack1.Pop());
+            }
+            return (int)stack2.Pop() ;
            
         }
 
         public int Peek()
         {
-            return s1Enabled ? (int)stack1.Peek() : (int)stack2.Peek();
+            for (int i = 0; i < stack1.Count; i++)
+            {
+                stack2.Push(stack1.Pop());
+            }
+            return (int)stack2.Peek();
         }
 
         public bool Empty()
