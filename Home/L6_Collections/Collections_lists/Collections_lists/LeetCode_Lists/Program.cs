@@ -27,7 +27,7 @@ namespace Program
             Stack stack = new();
             Stack<int> ints = new();
             ints.CopyTo(array, 1);
-            stack.CopyTo
+            stack.CopyTo;
         }
     }
 

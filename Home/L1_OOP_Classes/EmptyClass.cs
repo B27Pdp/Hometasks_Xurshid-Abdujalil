@@ -4,7 +4,8 @@ namespace OliyTalim_Fan_Innovatsiyalar_Vazirligi
 	namespace OliyTalim_Vazirligi
 	{
 		namespace Institutlar
-		{ class Economics
+		{
+			class Economics
 			{
 
 				public static int budget_allocated = 660000;
@@ -13,10 +14,10 @@ namespace OliyTalim_Fan_Innovatsiyalar_Vazirligi
 				public static short numberOf_PayingStudents = 8000;
 				public static ushort ContractSum = 1000;
 				public static short teachers = 800;
-                static int Salary_teachers = (int)teachers * 400;
+				static int Salary_teachers = (int)teachers * 400;
 
 
-                public class Accounting
+				public class Accounting
 				{
 
 					void Income_Tuitionfee()
@@ -29,25 +30,24 @@ namespace OliyTalim_Fan_Innovatsiyalar_Vazirligi
 
 					public void Expense_salaryTo_teachers()
 					{
-					  
-					Console.WriteLine( $"Oqituvchilarga sarflanayotgan mablag' {Salary_teachers} ");
-					} 
+
+						Console.WriteLine($"Oqituvchilarga sarflanayotgan mablag' {Salary_teachers} ");
+					}
 					void Reserve_Budget()
 					{
-					Console.WriteLine(budget_allocated- Salary_teachers);
-                    }
+						Console.WriteLine(budget_allocated - Salary_teachers);
+					}
 
 				}
 
 
 
-            }
-			
+			}
+
 		}
-	}
-	namespace Fan_Vazirligi { }
-	namespace Innovatsiyalar_Vazirligi { }
+
+		namespace Fan_Vazirligi { }
+		namespace Innovatsiyalar_Vazirligi { }
 
 	}
 }
-
