@@ -8,8 +8,6 @@ namespace L7_Collections2
 		public MyGeneric_Collection()
 		{
 		}
-
-
 	}
 
 
@@ -17,21 +15,31 @@ namespace L7_Collections2
 	{
 		public string name;
 		public int age;
-		public StudentDetails(string name = "DefaultName")
+		public StudentDetails(string name = "DefaultName",int age=0)
 		{
 			this.name = name;
+			this.age = age;
 		}
+
 		public static void Print_StudentDetails(StudentDetails student)
 		{
 			Console.WriteLine($"name :{student.name} , age :{student.age} ");
 		}
 	}
+
 	public interface IMyID
 	{
 		public StudentDetails ID  { get; set; }
 	}
+
+
 	public struct Group
 	{
+		public uint ID;
+		public Group(uint ID)
+		{
+			this.ID = ID;
+		}
 
 	}
 }
