@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1704.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L7_Collections2", "L7_Collections2.csproj", "{8148E884-1C3F-4C68-B6BA-69B460C30A55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "..\Tuples\Tuples.csproj", "{F43B8473-1302-40D3-8609-FE26D70F220B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "..\Nullable\Nullable.csproj", "{1F6D19C4-0889-45C9-BCDD-599DAD8209D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,21 @@ Global
 		{8148E884-1C3F-4C68-B6BA-69B460C30A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8148E884-1C3F-4C68-B6BA-69B460C30A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8148E884-1C3F-4C68-B6BA-69B460C30A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43B8473-1302-40D3-8609-FE26D70F220B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43B8473-1302-40D3-8609-FE26D70F220B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43B8473-1302-40D3-8609-FE26D70F220B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43B8473-1302-40D3-8609-FE26D70F220B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6D19C4-0889-45C9-BCDD-599DAD8209D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6D19C4-0889-45C9-BCDD-599DAD8209D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6D19C4-0889-45C9-BCDD-599DAD8209D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6D19C4-0889-45C9-BCDD-599DAD8209D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90A22686-EBB5-4CA6-AD83-3F0879251700}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
