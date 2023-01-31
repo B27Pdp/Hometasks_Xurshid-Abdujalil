@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp4.OperatorOverloading
+﻿namespace L4_Partial_OperOverloading
 {
     public partial class PartialTriangle
     {
@@ -7,11 +7,6 @@
         {
             Console.WriteLine("Get Area");
         }
-
-
-        //{
-        //    Console.WriteLine("fgdfg");
-        //}
 
     }
 }

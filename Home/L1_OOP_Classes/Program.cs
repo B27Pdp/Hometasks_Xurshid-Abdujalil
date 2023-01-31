@@ -1,24 +1,23 @@
 ﻿using System;
-using OOP;
-namespace OOPL1
+namespace OOP_L1
 {
 
-    class Program
+    public class Program
     {
-        public static void Main(string[] args)
+        public static void Main_L1(string[] args)
         {
-            //Mouses defender = new("Defender");
-            //defender.color = "Ivory";
+            Mouses defender = new("Defender");
+            defender.color = "Ivory";
 
 
-            //Phone Yorfondegantelfon = new();
-            //Yorfondegantelfon.color = "White blue .";
-            //Yorfondegantelfon.GetType();
-            //Yorfondegantelfon.model = " Yorfone nol bir";
-            //Yorfondegantelfon.GetType();
-            //Yorfondegantelfon.SwitchOn();
-            //Yorfondegantelfon.SwitchOff();
-            //Console.WriteLine(Yorfondegantelfon.model+"\n"+Yorfondegantelfon.color);
+            Phone Yorfondegantelfon = new();
+            Yorfondegantelfon.color = "White blue .";
+            Yorfondegantelfon.GetType();
+            Yorfondegantelfon.model = " Yorfone nol bir";
+            Yorfondegantelfon.GetType();
+            Yorfondegantelfon.SwitchOn();
+            Yorfondegantelfon.SwitchOff();
+            Console.WriteLine(Yorfondegantelfon.model+"\n"+Yorfondegantelfon.color);
 
 
         }

@@ -10,7 +10,6 @@ namespace CollectionsDemo.Homework_Lists
         {
         }
 
-
         public static void Do()
         {
             List<int> nums = new List<int>()

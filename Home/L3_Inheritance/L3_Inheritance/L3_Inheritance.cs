@@ -2,7 +2,7 @@
 using System;
 internal class Program
 {
-    private static void Main(string[] args)
+    private static void Main_L3(string[] args)
     {
         Phone phone = new Samsung();
         Samsung samsung = new Samsung();

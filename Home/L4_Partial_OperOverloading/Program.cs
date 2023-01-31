@@ -1,12 +1,13 @@
-﻿using ConsoleApp4.OperatorOverloading;
-
-namespace ConsoleApp4
+﻿
+namespace L4_Partial_OperOverloading
 {
-    internal class Program
+  
+      public  partial class Program
     {
-        
-        static void Main()
+
+        static void Main_L4()
         {
+           
             //Complex c1 = new Complex(10, 20);
             ////c1.ShowXY(); // displays 10 & 20  
             //Complex c2 = new Complex(0, 10);
@@ -15,7 +16,8 @@ namespace ConsoleApp4
             //c2.ShowXY(); // diapls -10 & -20 
 
             int g = 17;
-            g.Equals(new Triangle()) ;
+
+            g.Equals(new Triangle());
             Console.WriteLine(g.ToString());
             Triangle t = new(3, 4, 5);
             t = -t;
@@ -33,48 +35,31 @@ namespace ConsoleApp4
 
             Coords c = new(3, 5);
             c.PrintX();
-            
+
 
         }
+
         public partial class Coords
         {
-            
-            private int x;
-            private int y;
-
-            public Coords(int x, int y)
+            public void PrintCoords()
             {
-                this.x = x;
-                this.y = y;
+                Console.WriteLine("Coords: {0},{1}", x, y);
             }
-            public void PrintX()
+            public static partial void OnNameChanged()
             {
-                Console.WriteLine("x", x);
+                Console.WriteLine("sfgdfgdf");
             }
-            public static partial void OnNameChanged();
-    }
+        }
+        public class A
+        {
+            public void PrintA()
+            {
+                Console.WriteLine("A");
+            }
+        }
+        public class B
+        {
 
-    public partial class Coords 
-    {
-        public void PrintCoords()
-        {
-            Console.WriteLine("Coords: {0},{1}", x, y);
-        }
-        public static partial void OnNameChanged()
-        {
-            Console.WriteLine("sfgdfgdf");
         }
     }
-    public class A
-    {
-        public void PrintA()
-        {
-            Console.WriteLine("A");
-        }
-    }
-    public class B
-    {
-
-    }
-}
 }

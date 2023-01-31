@@ -1,8 +1,9 @@
-﻿namespace ConsoleApp4.OperatorOverloading
+﻿namespace L4_Partial_OperOverloading
+
 {
     abstract partial class PartialTriangle
     {
-        public partial void GetPerimetr()
+        public  partial void GetPerimetr()
         {
             Console.WriteLine("gdfgd");
         }

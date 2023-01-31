@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp4.OperatorOverloading
+﻿namespace L4_Partial_OperOverloading
 {
     internal class Triangle
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_Homework_1
+namespace Homework_OOP_L1
 {
     public class MyDate
     {
