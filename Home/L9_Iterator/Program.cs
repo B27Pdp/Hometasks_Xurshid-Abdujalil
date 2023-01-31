@@ -1,7 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
-
+using L9_Iterator;
+//L9_Iterator.MyClass.STR();
+//MyClass.First();
+//MyClass.Second();
 MyClass.Third();
+
 #region 1
 class MyClass
 {
@@ -78,8 +82,11 @@ class MyClass
             int index1 = str.IndexOf("$");
             int index2 = str.IndexOf("$", index1 + 1);
             string sub = str.Substring(index1, index2 - index1 + 1);
-            str = str.Replace(sub, dict[sub]);
-            Console.WriteLine($" Replaced  {sub} to {dict[sub]}");
+           string sub2=sub.Trim('$');
+            Console.WriteLine($"sub is {sub}");
+           
+            str = str.Replace(sub, dict[sub2]);
+            Console.WriteLine($" Replaced  {sub} to {dict[sub2]}");
         }
         Console.WriteLine("The final result : \n {0}",str);
 
