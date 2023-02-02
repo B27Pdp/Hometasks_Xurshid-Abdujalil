@@ -39,7 +39,7 @@ namespace Home.L9_Indexer
         public Program_Indexer()
         { }
 
-        public static void Main(string[] args)
+        public static void Main_L9(string[] args)
         {
             MyClass<int> collection = new MyClass<int>();
             collection.Add(11);

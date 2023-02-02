@@ -4,7 +4,7 @@ namespace L8_Generic
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main_L8(string[] args)
         {
             #region Task1
             //Dictionary<int, int> map1 = new()

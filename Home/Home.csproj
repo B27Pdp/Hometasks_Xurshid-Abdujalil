@@ -239,9 +239,15 @@
     <None Remove="L5_Record&amp;Struct\Record_Struct1\bin\Debug\net7.0\Record_Struct1.pdb" />
     <None Remove="L5_Record&amp;Struct\Record_Struct1\bin\Debug\net7.0\Record_Struct1" />
     <None Remove="L5_Record&amp;Struct\Record_Struct1\bin\Debug\net7.0\Record_Struct1.dll" />
+    <None Remove="L10_Delegates\" />
+    <None Remove="L10_Delegates\ClassWork\" />
+    <None Remove="L10_Delegates\New Folder\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="L9_Indexer\" />
+    <Folder Include="L10_Delegates\" />
+    <Folder Include="L10_Delegates\ClassWork\" />
+    <Folder Include="L10_Delegates\HomeWork\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="L6_Collections\Collections_lists\Collections_lists\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
