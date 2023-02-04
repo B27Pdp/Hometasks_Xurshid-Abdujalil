@@ -9,6 +9,7 @@ public class Program_L10
     public delegate void NumericAll();
     public string message = " Hi this is a test message from this class";
 
+    
     public static void Main_L10()
     {
         #region Ex
@@ -31,22 +32,36 @@ public class Program_L10
         //delegate2(12);
         #endregion
 
+        #region Homework
+        //Homework 1:
+
         //NumericOperation operationSum = new(Mathematics<int>.Sum);
         //NumericOperation operationSubstract = new(Mathematics<int>.Substract);
         //NumericOperation operationMultiply = new(Mathematics<int>.Multiply);
         //NumericOperation operationDevide = new(Mathematics<int>.Devide);
-        
+
         //operationDevide(12, 2);
         //operationMultiply(12, 2);
         //operationSubstract(12, 2);
         //operationSum(12, 2);
-        TupleMaxMin tupleMaxMin = new();
-        TupleMaxMin.MyTuple myTuple = TupleMaxMin.GetMaxMin;
-        Console.WriteLine(myTuple(tupleMaxMin.List));
-        
-        
+
+        //Homework 2:
+        //TupleMaxMin tupleMaxMin = new();
+        //TupleMaxMin.MyTuple myTuple = TupleMaxMin.GetMaxMin;
+        //Console.WriteLine(myTuple(tupleMaxMin.List));
+        #endregion
+
+        AnonymousDelegates.Run();
+
+
+        Anonyms.AnonymHome();
+        Anonyms.AnonymLambda();
+        Anonyms.AnonymFunc();
+        Anonyms.AnonymAction();
+        Anonyms.AnonymPredicate();
+           
     }
-  
+
 
 
 

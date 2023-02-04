@@ -16,8 +16,8 @@ namespace Home.L10_Delegates.HomeWork
 
 		public static (int,int) GetMaxMin(List<int> ints)
 		{ 
-			(int, int) a = (ints.Max(), ints.Min());
-			return a;
+			
+			return (ints.Max(), ints.Min());
 		}
 
 		public TupleMaxMin()
