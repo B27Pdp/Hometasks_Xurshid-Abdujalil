@@ -17,6 +17,15 @@ namespace Home.L10_Delegates.HomeWork
             anonyms.func2();
             anonyms.func3("I wrote one text here", "Wrote another there");
 
+            anonyms.func1 += anonyms.Func1;
+            anonyms.func1();
+
+
+        }
+
+        public string Func1()
+        {
+            return "This is method1";
         }
     }
 

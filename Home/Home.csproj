@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="L9_Indexer\" />
     <None Remove="L6_Collections\.DS_Store" />
     <None Remove="L6_Collections\Collections_lists\.DS_Store" />
     <None Remove="L6_Collections\Collections_lists\Collections_lists\.DS_Store" />
@@ -239,15 +238,33 @@
     <None Remove="L5_Record&amp;Struct\Record_Struct1\bin\Debug\net7.0\Record_Struct1.pdb" />
     <None Remove="L5_Record&amp;Struct\Record_Struct1\bin\Debug\net7.0\Record_Struct1" />
     <None Remove="L5_Record&amp;Struct\Record_Struct1\bin\Debug\net7.0\Record_Struct1.dll" />
-    <None Remove="L10_Delegates\" />
-    <None Remove="L10_Delegates\ClassWork\" />
     <None Remove="L10_Delegates\New Folder\" />
+    <None Remove="Module_3\" />
+    <None Remove="Module_3\L1_Regex\" />
+    <None Remove="Module_3\LeetCode\" />
+    <None Remove="Module-2\" />
+    <None Remove="Module-2\L10_Delegates\" />
+    <None Remove="Module-2\L2_Encapsulation\" />
+    <None Remove="Module-2\L8_Generics\" />
+    <None Remove="Module-2\L9_Indexer\" />
+    <None Remove="Module-2\L9_Iterator\" />
+    <None Remove="Module_3\L3_DateTime\" />
+    <None Remove="Module_3\L4_Files_Directory\" />
+    <None Remove="Module_3\L4_Files_Directory\Hometask\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="L9_Indexer\" />
-    <Folder Include="L10_Delegates\" />
-    <Folder Include="L10_Delegates\ClassWork\" />
-    <Folder Include="L10_Delegates\HomeWork\" />
+    <Folder Include="Module_3\" />
+    <Folder Include="Module_3\L1_Regex\" />
+    <Folder Include="Module_3\LeetCode\" />
+    <Folder Include="Module-2\" />
+    <Folder Include="Module-2\L10_Delegates\" />
+    <Folder Include="Module-2\L2_Encapsulation\" />
+    <Folder Include="Module-2\L8_Generics\" />
+    <Folder Include="Module-2\L9_Indexer\" />
+    <Folder Include="Module-2\L9_Iterator\" />
+    <Folder Include="Module_3\L3_DateTime\" />
+    <Folder Include="Module_3\L4_Files_Directory\" />
+    <Folder Include="Module_3\L4_Files_Directory\Hometask\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="L6_Collections\Collections_lists\Collections_lists\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />

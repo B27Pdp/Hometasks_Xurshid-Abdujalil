@@ -1,5 +1,8 @@
 ﻿using System;
 using Home.L10_Delegates.ClassWork;
+using Home.L10_Delegates.Delegates2.ClassWork;
+using Home.L10_Delegates.Delegates2.ClassWork.SecretAgents;
+using Home.L10_Delegates.Delegates2.Homework;
 using Home.L10_Delegates.HomeWork;
 namespace Home.L10_Delegates;
 
@@ -12,7 +15,24 @@ public class Program_L10
     
     public static void Main_L10()
     {
-        #region Ex
+        //SecretAgents_DO.Do();
+
+
+    //StaticDO__.DO();
+        //TryCatch.MeasureLength();
+
+
+        // try - catch - finally  |=>| Extension
+        // required
+        // anonymous variable
+    } 
+   
+
+
+    #region DELEGATES1
+    public static void Main_second_L10()
+        {
+       #region Ex
 
         //Program_L10 classObject = new();
         //Console.WriteLine("Hello Delegates !!!\n");
@@ -31,7 +51,6 @@ public class Program_L10
         //delegate1();
         //delegate2(12);
         #endregion
-
         #region Homework
         //Homework 1:
 
@@ -50,20 +69,17 @@ public class Program_L10
         //TupleMaxMin.MyTuple myTuple = TupleMaxMin.GetMaxMin;
         //Console.WriteLine(myTuple(tupleMaxMin.List));
         #endregion
+        #region Homework2
+        //AnonymousDelegates.Run();
 
-        AnonymousDelegates.Run();
+        //Anonyms.AnonymHome();
+        //Anonyms.AnonymLambda();
+        //Anonyms.AnonymFunc();
+        //Anonyms.AnonymAction();
+        //Anonyms.AnonymPredicate();
 
-
-        Anonyms.AnonymHome();
-        Anonyms.AnonymLambda();
-        Anonyms.AnonymFunc();
-        Anonyms.AnonymAction();
-        Anonyms.AnonymPredicate();
-           
+        #endregion
     }
-
-
-
 
 
     public delegate void MyDelegate1();
@@ -105,9 +121,9 @@ public class Program_L10
 
     }
 
+    #endregion
 
 
 
+}
 
-}	
-	
