@@ -9,7 +9,7 @@ namespace Home.Module_3.L4_Files_Directory.Hometask
 		//Method javob sifatida agar path ichida faqat papkalar bo'lsa "Papkalar bor" yozuvi,
 		//faqat fayllar bo'lsa "Fayllar bor" yozuvi, papka va fayllar bor bo'lsa
 		//"Papka va fayllar bor" yozuvi, aks holda "Papka bo'sh" yozuvi chiqsin. (Oson)
-		  static Action<DirectoryInfo> OnDirectoryInfo; 
+		  static Action<DirectoryInfo>? OnDirectoryInfo; 
 		public static void DoTask1()
 		{
 			string newFolerPath = @"/Users/jasons_xurshid/Desktop/Github_B27Group";

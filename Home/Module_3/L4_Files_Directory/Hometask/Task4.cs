@@ -23,8 +23,8 @@ namespace Home.Module_3.L4_Files_Directory.Hometask
             string fileInfo1;
             string fileInfo2;
             FileInfo fileInfo3=new("MynewFile");
-             fileInfo1=File.ReadLines(arrayFiles[file1At].FullName).ToString();
-             fileInfo2=File.ReadLines(arrayFiles[file2At].FullName).ToString();
+             fileInfo1=File.ReadAllLines(arrayFiles[file1At].FullName).ToString();
+             fileInfo2=File.ReadAllLines(arrayFiles[file2At].FullName).ToString();
             File.WriteAllText(fileInfo3.FullName,fileInfo1+fileInfo2);
 
 

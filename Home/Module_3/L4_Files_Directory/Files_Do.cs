@@ -7,7 +7,7 @@ namespace Home.Module_3.L4_Files_Directory
 	{
 		public static void Do()
 		{
-			Task1.DoTask1();
+			Task2.DoTask2();
 
 		}
 		public Files_Do()
