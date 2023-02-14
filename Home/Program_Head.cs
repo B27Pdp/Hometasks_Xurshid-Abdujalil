@@ -2,7 +2,11 @@
 using Home.L10_Delegates;
 using Home.Module_3.L1_Regex;
 using Home.Module_3.LeetCode;
+using Home.Module_3.L5_Serialization_XML;
+using Home.Module_3.L5_Serialization_XML.Exercise;
 using Home.Module_3.L4_Files_Directory;
+using Home.Module_3.L6_Serialization_JSON;
+using Home.Module_3.L6_Serialization_JSON.CRUD_JSON;
 
 internal class Program_Head
 {
@@ -15,6 +19,13 @@ internal class Program_Head
         //Regex1.RegexDo();
         //LeetcCode389_Find_the_Difference.DoLeetCode389();
 
-        Files_Do.Do();
-}
+        //Files_Do.Do();
+        //Xml1.DoXml1();
+        //Exercise.DoExercise();
+        //Read.Reader();
+        CRUD_JSON.CRUD_JSONRunner();
+
+        
+        
+    }
 }

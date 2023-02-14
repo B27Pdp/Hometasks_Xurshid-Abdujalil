@@ -251,6 +251,12 @@
     <None Remove="Module_3\L3_DateTime\" />
     <None Remove="Module_3\L4_Files_Directory\" />
     <None Remove="Module_3\L4_Files_Directory\Hometask\" />
+    <None Remove="Module_3\L4_Files_Directory\ClassWork\" />
+    <None Remove="Module_3\L5_Serialization_XML\" />
+    <None Remove="Module_3\L5_Serialization_XML\Exercise \" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="System.Text.Json" />
+    <None Remove="Module_3\L6_Serialization_JSON\CRUD_JSON\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Module_3\" />
@@ -265,6 +271,10 @@
     <Folder Include="Module_3\L3_DateTime\" />
     <Folder Include="Module_3\L4_Files_Directory\" />
     <Folder Include="Module_3\L4_Files_Directory\Hometask\" />
+    <Folder Include="Module_3\L4_Files_Directory\ClassWork\" />
+    <Folder Include="Module_3\L5_Serialization_XML\" />
+    <Folder Include="Module_3\L5_Serialization_XML\Exercise \" />
+    <Folder Include="Module_3\L6_Serialization_JSON\CRUD_JSON\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="L6_Collections\Collections_lists\Collections_lists\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
@@ -350,5 +360,9 @@
     <Compile Remove="L5_Record&amp;Struct\Record_Struct1\obj\Debug\net7.0\Record_Struct1.AssemblyInfo.cs" />
     <Compile Remove="L5_Record&amp;Struct\Record_Struct1\obj\Debug\net7.0\Record_Struct1.GlobalUsings.g.cs" />
     <Compile Remove="L5_Record&amp;Struct\L5_Record&amp;Struct.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="System.Text.Json" Version="7.0.1" />
   </ItemGroup>
 </Project>

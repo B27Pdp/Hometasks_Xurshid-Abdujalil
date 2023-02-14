@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <ID>1111</ID>
+    <Name>Abdulatif</Name>
+    <Surname>Mirzayev</Surname>
+    <Phone>+998901402020</Phone>
+  </Student>
+  <Student>
+    <ID>2222</ID>
+    <Name>Ulug'bek</Name>
+    <Surname>Toshtemirov</Surname>
+    <Phone>+998990564969</Phone>
+  </Student>
+  <Student>
+    <ID>3333</ID>
+    <Name>Xurshid</Name>
+    <Surname>Abdujalilov</Surname>
+    <Phone>+998905046484</Phone>
+  </Student>
+</ArrayOfStudent>
