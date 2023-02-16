@@ -257,6 +257,7 @@
     <None Remove="Newtonsoft.Json" />
     <None Remove="System.Text.Json" />
     <None Remove="Module_3\L6_Serialization_JSON\CRUD_JSON\" />
+    <None Remove="Module-2\L6_Collections\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Module_3\" />
@@ -275,6 +276,7 @@
     <Folder Include="Module_3\L5_Serialization_XML\" />
     <Folder Include="Module_3\L5_Serialization_XML\Exercise \" />
     <Folder Include="Module_3\L6_Serialization_JSON\CRUD_JSON\" />
+    <Folder Include="Module-2\L6_Collections\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="L6_Collections\Collections_lists\Collections_lists\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
@@ -363,6 +365,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-    <PackageReference Include="System.Text.Json" Version="7.0.1" />
+    <PackageReference Include="System.Text.Json" Version="7.0.2" />
   </ItemGroup>
 </Project>

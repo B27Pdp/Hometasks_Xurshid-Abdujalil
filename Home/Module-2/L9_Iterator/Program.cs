@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 using System.Collections;
-using L9_Iterator;
+
+namespace L9_Iterator;
 internal class Program
 {
     private static void Main_L9(string[] args)
@@ -9,7 +10,7 @@ internal class Program
         //L9_Iterator.MyClass.STR();
         //MyClass.First();
         //MyClass.Second();
-        MyClass.Third();
+        MyClass1.Third();
     }
 }
 
@@ -17,7 +18,7 @@ internal class Program
 
 
 #region 1
-class MyClass
+class MyClass1
 {
 
 

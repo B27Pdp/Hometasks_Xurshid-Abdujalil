@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Diagnostics.Metrics;
+using Collections_lists;
 
 namespace Program
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main_L6(string[] args)
         {
             Queue values1 = new();
             Queue values2 = new();
@@ -27,7 +28,9 @@ namespace Program
             Stack stack = new();
             Stack<int> ints = new();
             ints.CopyTo(array, 1);
-            stack.CopyTo;
+            MyStack myStack = new();
+            MyQueue myQueue = new();
+            
         }
     }
 

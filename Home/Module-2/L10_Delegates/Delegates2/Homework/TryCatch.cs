@@ -13,9 +13,9 @@ namespace Home.L10_Delegates.Delegates2.Homework
 					throw (new ArgumentException("  Input cannot be empty !!!"));
 
             }
-			catch (ArgumentException)
+			catch (ArgumentException ms)
 			{
-				Console.WriteLine(" : Input cannot be empty !!!");
+				Console.WriteLine(ms.Message);
 			}
 			
 
