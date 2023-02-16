@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="New_\L7_Collections2\L7_Collections2.csproj" />
+    <None Include="New_\L7_Collections2\L7_Collections2.sln" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\UserPrefs.xml" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\project-cache\L7_Collections2-Release.json" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\project-cache\L7_Collections2-Debug.json" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\project-cache\Tuple-Debug.json" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\project-cache\Tuples-Debug.json" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\project-cache\Nullable-Debug.json" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\project-cache\Tuples-Release.json" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\project-cache\Nullable-Release.json" />
+    <None Include="New_\L7_Collections2\.vs\L7_Collections2\xs\project-cache\ClassWorkTuple-Debug.json" />
+    <None Include="New_\Tuples\Tuples.csproj" />
+    <None Include="New_\Nullable\Nullable.csproj" />
+  </ItemGroup>
+</Project>
